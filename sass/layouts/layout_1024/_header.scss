@@ -1,0 +1,27 @@
+.header {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        min-height: 84px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+        img {
+            margin-bottom: 0px;
+        }
+
+        .menu {
+            .menu__item {
+                margin-bottom: 0px;
+            }
+
+            .menu__item:last-of-type {
+                margin-right: 0px;
+            }
+        }
+    }
+
+}

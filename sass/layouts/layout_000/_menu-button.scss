@@ -1,0 +1,39 @@
+.menu-button {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    transition: all .3s ease;
+    overflow: hidden;
+    padding: 0px;
+
+    &__item {
+        position: absolute;
+        height: 2px;
+        width: 40px;
+        background-color: $whiteColor;
+        transition: all .3s ease;
+    }
+
+    &__item:nth-of-type(1) {
+        top: 0px;
+    }
+
+    &__item:nth-of-type(2) {
+        top: 15px;
+    }
+
+    &__item:nth-of-type(3) {
+        top: 28px;
+    }
+    
+    &:hover {
+        color: $naviDarkColor;
+    }
+}

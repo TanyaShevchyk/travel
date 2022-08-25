@@ -1,0 +1,27 @@
+.review {
+    padding-left: 32px;
+    padding-right: 32px;
+
+    .container {
+        padding-top: 120px;
+        padding-bottom: 180px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+
+        .review-item {
+            display: flex;
+            flex-direction: row;
+
+            img {
+                width: 320px;
+                height: 336px;
+            }
+
+            .text {
+                padding-right: 60px;
+                padding-left: 60px;
+            }
+        }
+    }
+}

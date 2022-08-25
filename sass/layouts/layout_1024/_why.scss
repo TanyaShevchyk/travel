@@ -1,0 +1,52 @@
+.why {
+    .container {
+        padding-top: 124px;
+        flex-direction: row;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 124px;
+        justify-content: space-between;
+
+        .why-right {
+            order: 2;
+
+            .image-list {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 0px;
+                width: 386px;
+
+                .image-list-item {
+                    width: 350px;
+                    margin-bottom: 16px;
+                    margin-right: 0px;
+                }
+
+                .image-list-item:last-of-type {
+                    margin-bottom: 0px;
+                    margin-left: auto;
+                }
+            }
+        }
+
+        .why-left {
+            order: 1;
+            width: 550px;
+            text-align: left;
+            margin-right: 24px;
+
+            h2 {
+                text-align: left;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            p:last-of-type {
+                margin-bottom: 62px;
+            }
+        }
+
+    }
+}

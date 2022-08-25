@@ -1,0 +1,45 @@
+.header {
+    .hero form {
+        width: 647px;
+
+        input[type="search"] {
+            width: 100%;
+        }
+
+        input[type="search"]::placeholder {
+            align-items: center;
+            text-align: left;
+
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 136px;
+        padding-top: 32px;
+        padding-bottom: 38px;
+        padding-left: 18px;
+        padding-left: 18px;
+
+        img {
+            margin-bottom: 36px;
+        }
+
+        .header__nav {
+
+            .menu-button {
+                display: none;
+            }
+
+            .menu {
+                display: flex;
+                flex-direction: row;
+
+                .menu__item {
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+}

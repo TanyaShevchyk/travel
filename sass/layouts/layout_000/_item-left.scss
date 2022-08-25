@@ -1,0 +1,62 @@
+.item-left {
+    background-image: url(/img/house.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    padding: 120px 18px;
+
+    .container {
+        background-color: rgba(35, 35, 35, 0.9);
+        max-width: 540px;
+        min-height: 376px;
+        display: flex;
+        flex-direction: column;
+        padding: 44px 32px;
+
+        span {
+            color: $whiteColor;
+            font-size: 20px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+
+        h3 {
+            color: $whiteColor;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+
+        p {
+            color: $whiteColor;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+            margin-bottom: 28px;
+            max-width: 476px;
+        }
+
+        a {
+            color: $whiteColor;
+            background-color: $naviColor;
+            min-height: 60px;
+            max-width: 213px;
+            text-align: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 16px;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+
+}

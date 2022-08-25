@@ -1,0 +1,30 @@
+.header {
+    padding-bottom: 120px;
+
+
+    .hero form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 540px;
+
+        input[type="search"] {
+            width: 100%;
+            padding-left: 36px;
+        }
+
+        input[type="search"]::placeholder {
+            align-items: center;
+            text-align: left;
+            padding-left: 37px;
+        }
+
+        .search-button {
+            position: absolute;
+            top: 4px;
+            right: 5px;
+        }
+    }
+}

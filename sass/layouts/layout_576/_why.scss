@@ -1,0 +1,27 @@
+.why .container {
+    padding-top: 60px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    .why-right .image-list {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+    }
+
+    .image-list-item {
+        width: 258px;
+        margin-right: 24px;
+        margin-bottom: 0px;
+    }
+
+    .image-list-item:last-of-type {
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

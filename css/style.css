@@ -304,12 +304,16 @@ a {
   padding-left: 18px;
   padding-right: 18px;
 }
+.header .wrapper img {
+  z-index: 10;
+  margin: 0 auto;
+}
 .header .wrapper .menu {
   display: none;
 }
 .header--menu-active .header__nav {
   position: fixed;
-  top: 161px;
+  top: 61px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -318,27 +322,29 @@ a {
   max-height: 300px;
   padding: 116px 32px 32px;
 }
+.header--menu-active .header__nav .menu-button {
+  position: absolute;
+  top: 5px;
+  right: 18px;
+}
 .header--menu-active .header__nav .menu-button__item:nth-of-type(1) {
-  transform: translateX(45deg);
+  transform: rotate(45deg);
+  top: 15px;
 }
 .header--menu-active .header__nav .menu-button__item:nth-of-type(2) {
-  transform: translateX(-250%);
+  transform: translateX(250%);
   transform-origin: center;
 }
 .header--menu-active .header__nav .menu-button__item:nth-of-type(3) {
-  transform: translateX(-45deg);
+  transform: rotate(-45deg);
   transform-origin: center;
-  bottom: 9px;
+  top: 11px;
 }
 .header--menu-active .header__nav .menu {
   display: flex;
 }
 .header--menu-active .header__nav .menu__item a {
   font-size: 14px;
-}
-.header--menu-active .header__nav .wrapper img {
-  z-index: 10;
-  margin: 0 auto;
 }
 
 .menu {
@@ -367,9 +373,7 @@ a {
   position: relative;
   height: 30px;
   width: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: block;
   align-items: stretch;
   background-color: transparent;
   cursor: pointer;
@@ -379,6 +383,7 @@ a {
   padding: 0px;
 }
 .menu-button__item {
+  display: block;
   position: absolute;
   height: 2px;
   width: 40px;
@@ -860,6 +865,7 @@ footer .container .social #pinterest {
     padding-right: 32px;
   }
   .header .wrapper img {
+    margin-left: 0px;
     margin-bottom: 0px;
   }
   .header .wrapper .menu .menu__item {

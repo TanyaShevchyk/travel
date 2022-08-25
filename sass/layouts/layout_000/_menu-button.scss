@@ -2,9 +2,7 @@
     position: relative;
     height: 30px;
     width: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: block;
     align-items: stretch;
     background-color: transparent;
     cursor: pointer;
@@ -14,6 +12,7 @@
     padding: 0px;
 
     &__item {
+        display: block;
         position: absolute;
         height: 2px;
         width: 40px;
@@ -32,7 +31,7 @@
     &__item:nth-of-type(3) {
         top: 28px;
     }
-    
+
     &:hover {
         color: $naviDarkColor;
     }

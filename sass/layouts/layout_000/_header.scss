@@ -174,7 +174,10 @@
         padding-left: 18px;
         padding-right: 18px;
 
-
+        img {
+            z-index: 10;
+            margin: 0 auto;
+        }
 
         .menu {
             display: none;
@@ -185,7 +188,7 @@
     &--menu-active {
         .header__nav {
             position: fixed;
-            top: 161px;
+            top: 61px;
             bottom: 0;
             left: 0;
             right: 0;
@@ -195,21 +198,25 @@
             padding: 116px 32px 32px;
 
             .menu-button {
+                position: absolute;
+                top: 5px;
+                right: 18px;
 
                 &__item {
                     &:nth-of-type(1) {
-                        transform: translateX(45deg);
+                        transform: rotate(45deg);
+                        top: 15px;
                     }
 
                     &:nth-of-type(2) {
-                        transform: translateX(-250%);
+                        transform: translateX(250%);
                         transform-origin: center;
                     }
 
                     &:nth-of-type(3) {
-                        transform: translateX(-45deg);
+                        transform: rotate(-45deg);
                         transform-origin: center;
-                        bottom: 9px;
+                        top: 11px;
                     }
                 }
             }
@@ -222,11 +229,6 @@
                         font-size: 14px;
                     }
                 }
-            }
-
-            .wrapper img {
-                z-index: 10;
-                margin: 0 auto;
             }
         }
     }
